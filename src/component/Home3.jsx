@@ -10,7 +10,6 @@ const Home3 = () => {
     setCount( (prev_value)=>prev_value+1 )
     setCount( (prev_value)=>prev_value+1 )
 
-    count+=5
     
   }
     return (
@@ -23,9 +22,5 @@ const Home3 = () => {
 
 export default Home3
 
-function add(prevalue)
-{
-    return  prevalue+1
-}
 
-add(0)
+
